@@ -23,6 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<test.mockito.version>1.10.19</test.mockito.version>
+		<lib.apache.commons.lang3.version>3.6</lib.apache.commons.lang3.version>
 	</properties>
 
 	<dependencies>
@@ -74,7 +75,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.6</version>
+			<version>${lib.apache.commons.lang3.version}</version>
 		</dependency>
 		
 		<!-- Log -->
